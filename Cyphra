@@ -22,21 +22,21 @@ end
 MainTab:CreateSection("game scripts")
 
 MainTab:CreateButton({
-    Name = "[👮] Tactical SWAT Simulator",
+    Name = "Tactical: SWAT Simulator",
     Callback = function()
         loadAndDestroy("https://raw.githubusercontent.com/fahhhhhhhhhhh/CyphraHub/main/tacscript")
     end
 })
 
 MainTab:CreateButton({
-    Name = "[👻] Demonology",
+    Name = "Demonology",
     Callback = function()
         loadAndDestroy("https://raw.githubusercontent.com/fahhhhhhhhhhh/CyphraHub/main/demonologyscript")
     end
 })
 
 MainTab:CreateButton({
-    Name = "[🔫] Arsenal",
+    Name = "Arsenal",
     Callback = function()
         loadAndDestroy("https://raw.githubusercontent.com/fahhhhhhhhhhh/CyphraHub/main/arsenalscript")
     end
